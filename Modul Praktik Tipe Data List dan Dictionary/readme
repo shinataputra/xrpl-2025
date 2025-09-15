@@ -1,0 +1,78 @@
+# 🐍 Modul Praktik Python: Tipe Data List & Dictionary
+
+Selamat datang! Repositori ini berisi kode-kode latihan dari modul praktik Python untuk tipe data List dan Dictionary.
+
+Setiap bagian teori di bawah ini memiliki file skrip `.py` yang sesuai agar Anda bisa langsung menjalankannya dan melihat hasilnya. Untuk latihan, bukalah file `latihan_*.py` dan isi kode sesuai instruksi yang ada di dalamnya.
+
+**Struktur File:**
+- `README.md`: Panduan modul ini.
+- `bagian_1_list.py`: Contoh kode untuk Tipe Data List.
+- `latihan_1_list.py`: Soal latihan untuk Tipe Data List.
+- `bagian_2_dictionary.py`: Contoh kode untuk Tipe Data Dictionary.
+- `latihan_2_dictionary.py`: Soal latihan untuk Tipe Data Dictionary.
+- `bagian_3_kombinasi.py`: Contoh kode untuk kombinasi List & Dictionary.
+- `latihan_3_kombinasi.py`: Soal latihan untuk kombinasi.
+- `studi_kasus.py`: Proyek mini "Manajemen Inventaris Toko".
+
+---
+
+## Bagian 1: Tipe Data List
+
+**List** adalah kumpulan item yang **terurut** (*ordered*) dan **bisa diubah** (*mutable*). Anggap saja seperti daftar belanjaan. List dibuat menggunakan kurung siku `[]`.
+
+▶️ **Praktik:** Jalankan file `bagian_1_list.py` untuk melihat contoh membuat, mengakses, dan memodifikasi list secara langsung.
+
+### 🏋️‍♂️ Latihan 1: List
+Buka file `latihan_1_list.py` dan ikuti instruksi di dalamnya untuk menyelesaikan latihan berikut:
+1.  Buat sebuah list bernama `hobi` yang berisi 3 hobi Anda.
+2.  Cetak hobi pertama Anda.
+3.  Ubah hobi kedua Anda dengan hobi lain.
+4.  Tambahkan satu hobi baru ke dalam list.
+5.  Cetak list hobi terakhir Anda.
+
+---
+
+## Bagian 2: Tipe Data Dictionary
+
+**Dictionary** adalah kumpulan pasangan **kunci-nilai** (*key-value pair*) yang **bisa diubah** (*mutable*). Anggap saja seperti kamus atau kontak telepon. Dictionary dibuat menggunakan kurung kurawal `{}`.
+
+▶️ **Praktik:** Jalankan file `bagian_2_dictionary.py` untuk melihat contoh membuat, mengakses, dan memodifikasi dictionary.
+
+### 🏋️‍♂️ Latihan 2: Dictionary
+Buka file `latihan_2_dictionary.py` dan ikuti instruksi di dalamnya:
+1.  Buat sebuah dictionary bernama `laptop` dengan kunci: `merk`, `cpu`, `ram_gb`.
+2.  Cetak nilai dari `cpu`.
+3.  Tambahkan kunci baru bernama `storage_gb` beserta nilainya.
+4.  Ubah nilai `ram_gb` menjadi nilai lain.
+5.  Cetak dictionary `laptop` terakhir Anda.
+
+---
+
+## Bagian 3: Kombinasi List dan Dictionary
+
+Kekuatan sesungguhnya muncul saat kita menggabungkan `list` dan `dictionary` untuk merepresentasikan data yang kompleks, seperti daftar produk (list of dictionaries) atau playlist musik (dictionary with a list).
+
+▶️ **Praktik:** Jalankan file `bagian_3_kombinasi.py` untuk melihat contoh struktur data gabungan.
+
+### 🏋️‍♂️ Latihan 3: Kombinasi
+Buka file `latihan_3_kombinasi.py` dan selesaikan tantangan berikut:
+1.  Buat sebuah **list** bernama `keranjang_belanja`.
+2.  Isi list tersebut dengan 2 buah **dictionary**. Setiap dictionary merepresentasikan satu barang dengan kunci: `nama_barang`, `harga`, `jumlah`.
+3.  Tambahkan satu barang baru (dictionary baru) ke dalam `keranjang_belanja`.
+4.  Cetak nama barang dari item pertama di keranjang.
+5.  Cetak harga dari item kedua di keranjang.
+
+---
+
+## 🚀 Studi Kasus: Manajemen Inventaris Toko Sederhana
+
+Mari kita gabungkan semua yang telah dipelajari untuk membuat program sederhana untuk mengelola inventaris produk di sebuah toko.
+
+▶️ **Praktik:** Buka dan jalankan file `studi_kasus.py`. Pelajari cara kerjanya, lalu coba modifikasi atau selesaikan tantangan tambahan yang ada di dalam file tersebut.
+
+**Tugas Utama dalam Skrip:**
+1.  Menyimpan data produk dalam sebuah list berisi dictionary.
+2.  Menampilkan semua produk yang ada.
+3.  Menambahkan produk baru ke dalam inventaris.
+
+Selamat belajar dan mencoba!
