@@ -1,30 +1,15 @@
-namaDepan = "Asep"
-namaBelakang = "Sunandar"
-alamat = "Mastrip"
-hoby = "Nyanyi"
-umur = "16"
-mat = 90
-agama = 100
-pkn = 80
-
-
-
-
-# print(f"Umur saya {umur} dan Hobyy saya {hoby}")
-
-
 # perempuan = False
+# laki_laki = True
 
-
-# if (perempuan == False):
-#     print("Perempuan Harus Benar")
+# if perempuan:
+#     print("Perempuna Benar")
 # else:
-#     print("Perempuan Memang Benar")
+#     print("Perempuan Tidak Mau Salah")
 
-# nama = None
-# print(type(nama))
-# nama = "Asep"
-# print(nama)
 
-namasiswaxrpl2 = ["Asep", "Budi", "Caca", "Deni", "Eka"]
-print(namasiswaxrpl2[])
+nilai = 90
+
+if nilai < 75:
+    print ("Nilai kurang dari KKM")
+else:
+    print ("Nilai sudah KKM")
