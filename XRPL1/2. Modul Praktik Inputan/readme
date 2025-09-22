@@ -1,0 +1,94 @@
+# 🐍 Modul Praktik Python: Input, Variabel, dan Tipe Data  
+
+## 🎯 Tujuan Pembelajaran
+- Mengenal cara menerima input dari user menggunakan `input()`.  
+- Memahami bahwa input default berupa **string**.  
+- Melatih penggunaan **variabel** untuk menyimpan data.  
+- Melatih konversi tipe data: `int`, `float`, `str`, `bool`.  
+
+---
+
+## 📘 Teori Singkat  
+
+1. **Fungsi input()**  
+   ```python
+   data = input("Tulis sesuatu: ")
+   ```
+   Semua hasil dari `input()` selalu bertipe **string** (`str`).  
+
+2. **Variabel**  
+   - Variabel adalah tempat menyimpan nilai.  
+   - Penulisan bebas, tapi gunakan nama yang jelas.  
+   ```python
+   nama = "Andi"
+   umur = 17
+   ```
+
+3. **Konversi Tipe Data**  
+   - `int("123")` → 123  
+   - `float("3.14")` → 3.14  
+   - `str(123)` → "123"  
+   - `bool("True")` → True  
+
+---
+
+## 🛠️ Latihan Praktik  
+
+### 1. Input string
+```python
+nama = input("Masukkan nama kamu: ")
+print("Halo,", nama)
+```
+
+### 2. Input angka (integer)
+```python
+umur = int(input("Masukkan umur kamu: "))
+print("Umur kamu 5 tahun lagi adalah:", umur + 5)
+```
+
+### 3. Input angka desimal (float)
+```python
+tinggi = float(input("Masukkan tinggi badan (cm): "))
+print("Tinggi kamu adalah:", tinggi, "cm")
+```
+
+### 4. Menggabungkan variabel
+```python
+nama = input("Nama: ")
+umur = int(input("Umur: "))
+tinggi = float(input("Tinggi: "))
+
+print("Halo", nama, "umur kamu", umur, "tahun dengan tinggi", tinggi, "cm.")
+```
+
+### 5. Input boolean sederhana
+```python
+jawaban = input("Apakah kamu sudah makan? (ya/tidak): ")
+sudah_makan = (jawaban.lower() == "ya")
+print("Status makan:", sudah_makan)
+```
+
+---
+
+## 📝 Tugas  
+
+1. Buat program yang meminta:  
+   - Nama lengkap  
+   - Kelas  
+   - Nilai ujian (angka desimal)  
+
+   Lalu tampilkan hasil seperti ini:  
+   ```
+   Nama: Budi Santoso
+   Kelas: XI RPL 1
+   Nilai Ujian: 87.5
+   ```
+
+2. Buat program yang menanyakan tahun lahir, lalu hitung umur sekarang.  
+
+---
+
+## 📌 Catatan
+- Semua input awalnya **string**.  
+- Gunakan konversi tipe data sesuai kebutuhan.  
+- Biasakan memberi nama variabel yang jelas, bukan `a`, `b`, `c`.  

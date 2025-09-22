@@ -1,5 +1,19 @@
 nama = input("Masukkan nama Anda: ")
-umur = input("Masukkan umur Anda: ")
-alamat = input("Masukkan alamat Anda: ")
+print (type(nama))
 
-print("Hello " + nama + ", umur Anda " + umur + " tahun, dan alamat Anda di " + alamat + ".")
+umur = int(input("Masukkan umur Anda: "))
+print (type(umur))
+
+nilai = float(input("Masukkan nilai Anda: "))
+print (type(nilai))
+
+juara = bool(int(input("Apakah Anda juara? (1/0): ")))
+print (type(juara))
+
+buahlist = list(input("Masukkan nama buah: "))
+print (type(buahlist))
+
+buahdict = dict(input("Masukkan nama buah: "))
+print (type(buahdict))
+
+
