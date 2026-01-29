@@ -1,5 +1,5 @@
 #varibabel
-nilai = 30
+nilai = 40
 #kondisi
 if nilai > 50:
     print("Nilai lebih besar dari 50")
