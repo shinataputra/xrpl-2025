@@ -27,4 +27,4 @@ pkn = 80
 # print(nama)
 
 namasiswaxrpl2 = ["Asep", "Budi", "Caca", "Deni", "Eka"]
-print(namasiswaxrpl2[])
+print(namasiswaxrpl2[0])
